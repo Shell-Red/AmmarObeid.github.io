@@ -25,14 +25,14 @@
 
 <!-- Hero Section -->
 <section id="about" class="hero">
-  <div class="hero-left">
+  <div class="hero-left fade-in">
     <h2>
       <span id="typing"></span>
     </h2>
     <p>I am Ammar Emad Obeid, a passionate cybersecurity specialist with experience in penetration testing, network security assessments, and building security dashboards. I enjoy solving security challenges and helping organizations protect their digital assets.</p>
-    <a href="CV.pdf" class="btn" download>Download CV</a>
+    <a href="CV.pdf" class="btn">Download CV</a>
   </div>
-  <div class="hero-right">
+  <div class="hero-right fade-in">
     <img src="profile.jpg" alt="Ammar Emad Obeid">
   </div>
 </section>
@@ -40,22 +40,30 @@
 <!-- Skills Section -->
 <section id="skills">
   <h2>Skills</h2>
-  <div class="skills-container">
-    <div class="skill">Penetration Testing</div>
-    <div class="skill">Network Security</div>
-    <div class="skill">Security Operations</div>
-    <div class="skill">Cyber Threat Analysis</div>
-    <div class="skill">Python & Scripting</div>
-    <div class="skill">Incident Response</div>
-    <div class="skill">Vulnerability Assessment</div>
-    <div class="skill">SIEM & Dashboards</div>
+  <div class="skills-container fade-in">
+    <div class="skill">
+      <span>Penetration Testing</span>
+      <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Network Security</span>
+      <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Security Operations</span>
+      <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+    </div>
+    <div class="skill">
+      <span>Python & Scripting</span>
+      <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+    </div>
   </div>
 </section>
 
 <!-- Projects Section -->
 <section id="projects">
   <h2>Projects</h2>
-  <div class="projects-container">
+  <div class="projects-container fade-in">
     <div class="project-card">
       <h3>DAN-TOOLS</h3>
       <p>A cybersecurity toolkit for penetration testing and network security assessments.</p>
@@ -71,21 +79,32 @@
 <!-- Certificates Section -->
 <section id="certificates">
   <h2>Certificates</h2>
-  <div class="certificates-container">
-    <img src="assets/images/ccna.jpg" alt="CCNA">
-    <img src="assets/images/CCT_Fast_Track_GIG.jpg" alt="CCT Fast Track">
-    <img src="assets/images/green_circle_training.jpg" alt="Green Circle Training">
-    <img src="assets/images/ncscjo_training.jpg" alt="NCSC Jordan Training">
+  <div class="certificates-container fade-in">
+    <div class="certificate-slide">
+      <img src="assets/images/ccna.jpg" alt="CCNA">
+    </div>
+    <div class="certificate-slide">
+      <img src="assets/images/CCT_Fast_Track_GIG.jpg" alt="CCT Fast Track">
+    </div>
+    <div class="certificate-slide">
+      <img src="assets/images/green_circle_training.jpg" alt="Green Circle Training">
+    </div>
+    <div class="certificate-slide">
+      <img src="assets/images/ncscjo_training.jpg" alt="NCSC Jordan Training">
+    </div>
   </div>
 </section>
 
 <!-- Contact Section -->
-<section id="contact">
+<section id="contact" class="fade-in">
   <h2>Contact</h2>
   <p>Email: <a href="mailto:ammar.eobeid@gmail.com">ammar.eobeid@gmail.com</a></p>
   <p>Phone: +962796555477</p>
   <p>Location: Amman, Jordan</p>
 </section>
+
+<!-- Back to Top Button -->
+<button id="backToTop">&#8679;</button>
 
 <script src="script.js"></script>
 </body>
