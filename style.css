@@ -557,7 +557,7 @@ footer{
     }
 
     .cv-btn{
-        display:none;
+        display:inline-block;
     }
 }
 
