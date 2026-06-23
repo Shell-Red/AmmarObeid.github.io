@@ -204,7 +204,6 @@ body::before{
     border-radius:50%;
     padding:8px;
     background:linear-gradient(135deg,var(--primary),var(--secondary));
-    animation:rotateRing 10s linear infinite;
 }
 
 .image-ring img{
@@ -406,6 +405,30 @@ body::before{
     cursor:pointer;
 }
 
+.date{
+    display:block;
+    color:var(--secondary);
+    margin-bottom:15px;
+    font-size:.95rem;
+    font-weight:600;
+}
+
+.contact-info a{
+    color:var(--secondary);
+    text-decoration:none;
+}
+
+.contact-info p{
+    margin-bottom:18px;
+    color:var(--text2);
+    font-size:1.05rem;
+}
+
+.contact-info i{
+    color:var(--primary);
+    margin-right:10px;
+}
+
 footer{
     text-align:center;
     padding:40px;
@@ -491,3 +514,4 @@ footer{
     background:#e5e7eb;
     color:#0f172a;
 }
+
